@@ -22,8 +22,10 @@
 
       .when('/daily', {
         template: 'daily'
+      })
+      .otherwise({
+        redirectTo: '/'
       });
-
 
   }
 })();
