@@ -4,7 +4,7 @@
 
   DailyController.$inject = [];
 
-  function dailyController(){
+  function DailyController(){
 
   }
 })();
