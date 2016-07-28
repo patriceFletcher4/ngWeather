@@ -1,15 +1,15 @@
 <div class="container">
   <div class="row">
     <div class="col-md-5 col-md-offset-3">
-      <h3>latitude: {{ minutelyData.latitude}}, longitude: {{minutelyData.longitude}}</h3>
+      <h3>Latitude: {{ minutelyData.latitude}}, Longitude: {{minutelyData.longitude}}</h3>
 
     </div>
   </div>
   <div class="row" ng-repeat='card in minutelyData.minutely.data'>
   <div class="col-md-6 col-md-offset-3 well">
     <div class="row">
-      <div class="col-md-4">
-        <img ng-src="images/{{minutelyData.minutely.icon}}.png" alt="{{minutelyData.minutely.icon}}" style='width: 100px;'>
+      <div class="col-md-offset-4">
+        <img ng-src="images/{{minutelyData.minutely.icon}}.png" alt="{{minutelyData.minutely.icon}}" style='width: 200px;'>
       </div>
       <div class="col-md-4">
         <h4>{{card.time * 1000 | date: 'short'}}</h4>
@@ -17,6 +17,9 @@
     </div>
     <div class="row">
      <h5>Precipitation Probability: {{ card.precipProbability * 100 | number:0 }} %</h5>
+    </div>
+    <div>
+      <h5>Precipitation Intensity: {{ card.precipIntensity * 100 | number:0 }} %</h5>
     </div>
     <div class="row">
       <div class="col-md-6">

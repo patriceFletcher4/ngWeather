@@ -6,8 +6,8 @@
 
 
     function WeatherService($http){
-    var passphrase = 'i like cheese and bacon and some other things too'
-    var baseUrl = 'https://quiet-bayou-88937.herokuapp.com/';
+    var passphrase = 'Jesus is the center of my life I love him with all my heart and he loves me too'
+    var baseUrl = 'https://hidden-woodland-60294.herokuapp.com/';
     var config = {
       headers: {
         'passphrase': passphrase
