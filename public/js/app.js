@@ -1,4 +1,6 @@
 
 angular.module('ngWeather', [
-  'ngRoute', 'ngAnimate'
+  'ngRoute', 'ngAnimate', 'ngGeolocation'
+
+
 ]);
