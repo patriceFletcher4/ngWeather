@@ -10,10 +10,10 @@ body {
 }
 
 .well{
-  border: solid 10px yellow;
-  background-color: lightblue;
+  border: solid 6px blue;
+  background-color: black;
   font-family: georgia, cursive, serif, white;
-  color: royalblue;
+  color: white;
 }
 @keyframes rotatefall {
   0%    { transform: rotateZ(0deg); }
